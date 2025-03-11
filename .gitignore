@@ -1,0 +1,57 @@
+# Compiled class files
+*.class
+*.war
+*.ear
+*.jar
+
+# Log files
+*.log
+
+# Gradle related files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# MacOS & Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Test reports and coverage data
+test-results/
+jacoco/
+
+# Temporary files
+*.tmp
+*.lock
+*.orig
+
+# Maven (in case mixed with Gradle)
+.mvn/
+target/
+
+# Node.js files (if using frontend)
+node_modules/
+
+# Environment files
+.env
+.env.local
